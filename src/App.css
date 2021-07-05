@@ -15,7 +15,7 @@
 
 /* Nav Background Color */
 .NavigateDiv, .NavUl, .NavLi, a {
-  background-color: rgb(228, 177, 164);
+  background-color:rgb(233, 228, 228);
 }
 
 .NavUl {
@@ -42,7 +42,7 @@
 }
 
 a {
-  color:rgb(8, 56, 185);
+  color:rgb(44, 29, 182);
   margin: 1rem, auto;
   font-size: 1.2rem;
   text-decoration: none;
