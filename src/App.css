@@ -67,7 +67,7 @@ a {
 .HomeDivContainer{
   display: grid;
   /* margin-right: 0.2rem; */
-  background-color: rgb(250, 249, 247);
+  background-color: rgb(233, 187, 96);
   border: 0px solid white;
   max-width: 1200px;
   /* margin-top: 10rem; */
@@ -197,4 +197,82 @@ a {
   margin-left: 0rem;
   padding: 5px;
   background-color: rgb(250, 248, 248);
+}
+
+/* PROJECTS CSS STYLESHEET */
+
+
+.Div2Projects{
+  border: 2px solid black;
+  background-color: rgb(163, 146, 121);
+  display: grid;
+  /* margin-right: 0.2rem; */
+  /* background-color: rgb(233, 187, 96); */
+  border: 0px solid white;
+  max-width: 1200px;
+  /* margin-top: 10rem; */
+  /* margin-left: 0.2rem; */
+  height: 845px;
+  margin: auto;
+}
+
+
+
+
+
+
+/* SKILLS CSS STYLESHEET */
+
+.Div2Skills{
+  border: 2px solid black;
+  background-color: rgb(43, 43, 185);
+  display: grid;
+  /* margin-right: 0.2rem; */
+  /* background-color: rgb(233, 187, 96); */
+  border: 0px solid white;
+  max-width: 1200px;
+  /* margin-top: 10rem; */
+  /* margin-left: 0.2rem; */
+  height: 845px;
+  margin: auto;
+}
+
+
+
+
+/* CONTACT CSS STYLESHEET */
+
+.Div2Contact {
+  border: 2px solid black;
+  background-color: rgb(214, 24, 231);
+  display: grid;
+  /* margin-right: 0.2rem; */
+  /* background-color: rgb(233, 187, 96); */
+  border: 0px solid white;
+  max-width: 1200px;
+  /* margin-top: 10rem; */
+  /* margin-left: 0.2rem; */
+  height: 845px;
+  margin: auto;
+  
+}
+
+
+
+
+
+/* ABOUT CSS STYLESHEET */
+
+.Div2About {
+  border: 2px solid black;
+  background-color: rgb(58, 199, 16);
+  display: grid;
+  /* margin-right: 0.2rem; */
+  /* background-color: rgb(233, 187, 96); */
+  border: 0px solid white;
+  max-width: 1200px;
+  /* margin-top: 10rem; */
+  /* margin-left: 0.2rem; */
+  height: 845px;
+  margin: auto;
 }

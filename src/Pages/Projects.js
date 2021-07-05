@@ -1,10 +1,11 @@
 import React from 'react';
+import '../App.css';
 
 
 const Projects = () => {
   return (
-    <div className="HomeDivContainer">
-      <h1 className="h1-text">Hello from Projects</h1>
+    <div className="Div2Projects">
+      {/* <div className="Div2Projects"> </div> */}
     </div>
     
   )

@@ -1,9 +1,10 @@
 import React from 'react'
+import '../App.css';
 
 const Contact = () => {
   return (
-    <div className="HomeDivContainer">
-      <h1 className="h1-text">Hello from contact</h1>
+    <div className="Div2Contact">
+      {/* <div className="Div2Contact"> </div> */}
     </div>
     
   )

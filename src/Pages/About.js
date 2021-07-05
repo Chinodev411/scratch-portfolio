@@ -1,9 +1,10 @@
 import React from 'react'
+import '../App.css';
 
 const About = () => {
   return (
-    <div className="HomeDivContainer">
-      <h1 className="h1-text">Hello from About</h1>
+    <div className="Div2About">
+      {/* <div className="Div2About"> </div> */}
     </div>
   )
 }
