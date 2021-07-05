@@ -1,6 +1,6 @@
 * {
-  margin: 0, auto;
-  background-color: rgb(245, 238, 238);
+  margin: 0px;
+  background-color: rgb(186, 224, 241);
 }
 
 .NavigateDiv{
@@ -68,11 +68,11 @@ a {
   display: grid;
   /* margin-right: 0.2rem; */
   background-color: rgb(250, 249, 247);
-  border: 4px solid white;
+  border: 0px solid white;
   max-width: 1200px;
   /* margin-top: 10rem; */
   /* margin-left: 0.2rem; */
-  height: 830px;
+  height: 845px;
   margin: auto;
 }
 
@@ -91,6 +91,7 @@ a {
   width: 220px;
   margin: auto;
   margin-top: 14rem;
+  margin-bottom: 80px;
   border-radius: 12rem;
   background-color: white;
 }
@@ -108,7 +109,7 @@ a {
   border: 0px solid blue;
   width: 50px;
   height: 120px;
-  margin-top: -400px;
+  margin-top: -320px;
   padding: 7px;
   background-color: rgb(253, 252, 252);
   margin-left: 295px;
@@ -141,5 +142,59 @@ a {
 
 
 .SideDivA{
+  background-color: white;
+}
+
+.Footer-Div {
+  color:rgb(8, 8, 8);
+  background-color:rgb(36, 33, 33);
+  height: 40px;
+  margin-top: 250px;
+  /* margin-bottom: -60px; */
+  padding: 5px;
+  border: 1px solid black;
+  /* width: 100%; */
+
+}
+
+.Footer-Text {
+  background-color: white;
+  text-align: center;
+  justify-content: "center";
+  margin-top: 0px;
+  
+}
+.Copy-Right{
+  background-color: white;
+}
+
+.Footer-Text-2 {
+  background-color: white;
+  text-align: center;
+  justify-content: "center";
+  /* margin-top: -10px; */
+  margin-top: 0px;
+}
+
+.Copy-Right{
+  text-align: center;
+  justify-content: "center";
+}
+
+.H-Main-Text {
+  margin-top: -0.2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgb(250, 248, 248);
+  font-family: 'Aldrich', sans-serif;
+}
+
+.Intro-Div{
+  display: inline-block;
+  margin-top: -400px;
+  width: 320px;
+  height: 50px;
+  margin-left: 0rem;
+  padding: 5px;
   background-color: rgb(250, 248, 248);
 }
