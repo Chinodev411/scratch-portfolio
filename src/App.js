@@ -1,4 +1,6 @@
 import React from 'react';
+import { SiLinkedin } from "react-icons/si";
+import { FaGithub } from "react-icons/si";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Home from './Pages/Home';
@@ -7,6 +9,8 @@ import Skills from './Pages/Skills';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
 import NavigateMenu from './components/NavigateMenu';
+
+
 
 
 function App() {
