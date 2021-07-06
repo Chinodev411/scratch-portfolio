@@ -199,29 +199,162 @@ a {
   background-color: rgb(250, 248, 248);
 }
 
-/* PROJECTS CSS STYLESHEET */
+/* PROJECTS CSS STYLE-SHEET */
 
 
 .Div2Projects{
-  border: 2px solid black;
-  background-color: rgb(163, 146, 121);
+  border: 1px solid black;
+  background-color: white;
   display: grid;
   /* margin-right: 0.2rem; */
   /* background-color: rgb(233, 187, 96); */
-  border: 0px solid white;
+  /* border: 0px solid white; */
   max-width: 1200px;
   /* margin-top: 10rem; */
   /* margin-left: 0.2rem; */
-  height: 845px;
+  height: 848px;
   margin: auto;
 }
 
+.Portfolio-Div{
+  display: grid;
+  border: 2px solid white;
+  width: 95%;
+  height: 99%;
+  background-color: white;
+  margin: auto;
+
+}
+
+.Portfolio-1 {
+  display: inline-grid;
+  width: 300px;
+  height: 250px;
+  border: 2px solid black;
+  background-color: white;
+  margin-top: 8rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+
+.Port-Title-1{
+  border: 2px solid purple;
+  width: 95%;
+  height: 27px;
+  background-color: rgb(163, 146, 121);
+  margin: 0 auto;
+  margin-bottom: -5px;
+  text-align: center;
+  
+
+}
+
+.Portfolio-Image-1{
+  border: 2px solid rgb(11, 67, 221);
+  background-color: rgb(58, 199, 16);
+  width: 95%;
+  height: 170px;
+  /* margin-top: 20px; */
+  margin: 0 auto;
+
+}
+
+.Pro-1, .Pro-2{
+  height: 170px;
+  width: 100%
+}
+  .Click-Portfolio-1{
+    border: 2px solid yellow;
+    background-image: rgb(31, 31, 32);
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: -10px;
+    margin-top: -5px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+.Portfolio-2 {
+  display: inline-grid;
+  /* grid-column: auto; */
+  width: 300px;
+  height: 250px;
+  border: 2px solid black;
+  background-color: white;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.Port-Title-2{
+  border: 2px solid purple;
+  width: 95%;
+  height: 27px;
+  background-color: rgb(163, 146, 121);
+  margin: 0 auto;
+  margin-bottom: -5px;
+  text-align: center;
+
+}
+
+.Portfolio-Image-2{
+  border: 2px solid rgb(11, 67, 221);
+  background-color: rgb(58, 199, 16);
+  width: 95%;
+  height: 170px;
+  /* margin-top: 20px; */
+  margin: 0 auto;
+
+}
+  .Click-Portfolio-2{
+    border: 2px solid yellow;
+    background-image: rgb(31, 31, 32);
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: -10px;
+    margin-top: -5px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .Click-Text-2, .Click-Text-1{
+    margin-left: 2rem;
+  }
 
 
+  .Pro-Footer-Div{
+    border: 2px solid white;
+    height: 40px;
+    background-color: white;
+    padding: 1px;
+    margin-top: 7rem;
+  }
+
+  .Pro-Footer-Text {
+    background-color: white;
+    text-align: center;
+    justify-content: "center";
+    margin-top: 0px;
+    margin-bottom: 2px;
+    height: 15px;
+    width: 
+  }
+
+  .Pro-Footer-Text-2 {
+    background-color: white;
+    text-align: center;
+    justify-content: "center";
+    margin-top: 0px;
+    height: 30px;
+    font-size: 0.95rem;
+  }
 
 
-
-/* SKILLS CSS STYLESHEET */
+/* SKILLS CSS STYLE-SHEET */
 
 .Div2Skills{
   border: 2px solid black;
@@ -240,7 +373,7 @@ a {
 
 
 
-/* CONTACT CSS STYLESHEET */
+/* CONTACT CSS STYLE-SHEET */
 
 .Div2Contact {
   border: 2px solid black;
@@ -261,7 +394,7 @@ a {
 
 
 
-/* ABOUT CSS STYLESHEET */
+/* ABOUT CSS STYLE-SHEET */
 
 .Div2About {
   border: 2px solid black;
