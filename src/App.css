@@ -67,7 +67,8 @@ a {
 .HomeDivContainer{
   display: grid;
   /* margin-right: 0.2rem; */
-  background-color: rgb(233, 187, 96);
+  /* background-color: rgb(233, 187, 96); */
+  background:repeating-linear-gradient(rgb(233, 187, 96), rgb(155, 155, 153));
   border: 0px solid white;
   width: 1200px;
   /* margin-top: 10rem; */
@@ -233,7 +234,7 @@ a {
   border: 0px solid white;
   width: 95%;
   height: 99%;
-  background-color: rgb(252, 235, 235);
+  background:repeating-linear-gradient(rgb(228, 223, 252), rgb(155, 155, 153));
   margin: auto;
 
 }
@@ -369,8 +370,10 @@ a {
 /* SKILLS CSS STYLE-SHEET */
 
 .Div2Skills{
-  border: 2px solid black;
-  background-color: rgb(31, 31, 235);
+  border: 0px solid black;
+  /* background-color: rgb(31, 31, 235); */
+  background:repeating-linear-gradient(rgb(143, 143, 250), rgb(155, 155, 153));
+  
   display: grid;
   /* margin-right: 0.2rem; */
   /* background-color: rgb(233, 187, 96); */
@@ -384,8 +387,9 @@ a {
 
 .Skills-Container{
   display: inline-block;
-  border: 2px solid black;
-  background-color: white;
+  border: 0px solid black;
+  background-color: rgb(221, 123, 123);
+  background:repeating-linear-gradient(rgb(200, 196, 236), rgb(252, 252, 253));
   width: 95%;
   padding: 5px;
   margin: 0 auto;
@@ -395,7 +399,7 @@ a {
  border: 2px solid black;
  width: 200px;
  height: 50px;
- background-color:white;
+ background-color:rgb(12, 12, 12);
  margin-top: 10rem;
  margin-left: 3rem;
 }
@@ -405,6 +409,7 @@ a {
   height: 450px;
   margin-top: 0rem;
   margin-left: 3rem;
+  background-color: rgb(255, 243, 228);
 }
 .Ul-Skills{
   margin-top: 2rem;
@@ -412,14 +417,19 @@ a {
 
 .List-Head{
   text-align: center;
-  background-color: white;
+  background-color: rgb(3, 3, 3);
   margin-top:1rem;
+  color:white;
 }
+
+
+
 /* CONTACT CSS STYLE-SHEET */
 
 .Div2Contact {
-  border: 2px solid black;
-  background-color: rgb(221, 221, 221);
+  border: 0px solid black;
+  background:repeating-linear-gradient(rgb(253, 253, 253), rgb(155, 155, 153));
+  /* background-color: rgb(241, 153, 153); */
   display: grid;
   /* margin-right: 0.2rem; */
   /* background-color: rgb(233, 187, 96); */
@@ -434,27 +444,62 @@ a {
 
 .Contact-Div {
   border: 0px solid black;
-  width: 100%;
-  height: 100%;
-  margin: 10rem auto;
+  width: 500px;
+  height: 500px;
+  margin: 12rem auto;
+  background:repeating-linear-gradient(rgb(253, 253, 253), rgb(155, 155, 153));
+  /* align-content: center; */
+  padding: 0px;
+  
+  /* justify-content: center; */
 }
 
+.Contact-Footer-Div {
+  border: 0px solid rgb(1, 6, 17);
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  margin: -2.5rem auto;
+  width: 100%;
+}
 
+.Contact-Footer-Text{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  justify-content: "center";
+  margin-top: 0px;
+  margin-bottom: 2px;
+  height: 15px;
+  /* width:  */
+}
+.Contact-Footer-Text-2 {
+  background-color: white;
+  text-align: center;
+  justify-content: "center";
+  margin-top: 0px;
+  height: 30px;
+  font-size: 0.95rem;
+  
+}
 
+.Contact-Info{
+  text-align:center;
+  margin: 1rem auto;
+}
 
 /* ABOUT CSS STYLE-SHEET */
 
 .Div2About {
-  border: 0px solid black;
+  /* border: 0px solid black; */
   background-color: rgb(232, 243, 229);
   display: grid;
   /* margin-right: 0.2rem; */
   /* background-color: rgb(233, 187, 96); */
-  border: 3px solid white;
-  width: 100%;
+  /* border: 0px solid white; */
+  width: 1200px;
   /* margin-top: 10rem; */
   /* margin-left: 0.2rem; */
-  height: 1100px;
+  height: 845px;
   margin: auto;
 }
 
@@ -478,8 +523,37 @@ a {
   text-justify: inter-word;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.3rem;
-  padding: 1rem;
+  padding: 7rem;
   
+}
+
+.About-Footer-Div {
+  border: 0px solid rgb(1, 6, 17);
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  margin: 2.7rem auto;
+  width: 100%;
+}
+
+.About-Footer-Text{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  justify-content: "center";
+  margin-top: 0px;
+  margin-bottom: 2px;
+  height: 15px;
+  /* width:  */
+  width: 100%;
+}
+.About-Footer-Text-2 {
+  background-color: white;
+  text-align: center;
+  justify-content: "center";
+  margin-top: 0px;
+  height: 30px;
+  font-size: 0.95rem;
+  width: 100%;
 }
 
 
@@ -497,7 +571,7 @@ a {
 
 
 @media all and (max-width: 800px) {
-  .HomeDivContainer, .Div2About, .About-Div  {
+  .HomeDivContainer, .Div2About, .Div2Contact, .About-Div  {
     width: 500px;
   }
 } 

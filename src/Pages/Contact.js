@@ -6,15 +6,15 @@ const Contact = () => {
   return (
     <div className="Div2Contact">
       <div className="Contact-Div">
-        <h4>My Email address : Chinodev@outlook.com
+        <h4 className="Contact-Info">My Email Address : Chinodev@outlook.com
               <br/> Github: Chinodev411
               </h4>
       </div>
 
 
-      <div className="Pro-Footer-Div">
-              <h4 className="Pro-Footer-Text"><BiCopyright className="Copy-Right"/>Copyright 2021 </h4> 
-              <h4 className="Pro-Footer-Text-2">All rights reserved. Created By ChinoTheRobot </h4>
+          <div className="Contact-Footer-Div">
+              <h4 className="Contact-Footer-Text"><BiCopyright className="Copy-Right"/>Copyright 2021 </h4> 
+              <h4 className="Contact-Footer-Text-2">All rights reserved. Created By ChinoTheRobot </h4>
             </div>
     </div>
     
