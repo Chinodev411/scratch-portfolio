@@ -434,8 +434,8 @@ a {
 
 .Contact-Div {
   border: 0px solid black;
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   margin: 10rem auto;
 }
 
