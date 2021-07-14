@@ -12,25 +12,26 @@ const Home = () => {
       
           <img src={portfolio} alt="profile" className="image-pic" />
 
-      </div>
 
       {/* Right side div for linkedin and git-hub */}
       
       <div className="RightDivHome">
 
-        <div className="LinkDiv"> 
-            <a href="https://www.linkedin.com/in/chinonso-ogbennia/" target="_blank" rel="noreferrer" className="SideDivA"><SiLinkedin  className="FaLink"/></a>
-        </div>
-  
+<div className="LinkDiv"> 
+<a href="https://www.linkedin.com/in/chinonso-ogbennia/" target="_blank" rel="noreferrer" className="SideDivA"><SiLinkedin  className="FaLink"/></a>
+</div>
 
-        <div className="GitDiv">
-          <a href="https://github.com/Chinodev411" target="_blank" rel="noreferrer" className="SideDivA"><FaGithub className="FaLink"/></a>
 
-        </div> 
+<div className="GitDiv">
+<a href="https://github.com/Chinodev411" target="_blank" rel="noreferrer" className="SideDivA"><FaGithub className="FaLink"/></a>
 
-      </div>
+</div> 
+
+</div>
+</div>
       <div className="Intro-Div">
         <h3 className="H-Main-Text"> CHINONSO ANSELEM OGBENNIA</h3>
+        <h3 className="H-Main-Text-Sub">Full-Stack Software  Engineer</h3>
       </div>
       
       <div className="Footer-Div">
